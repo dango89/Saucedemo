@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo_page",
+  "version": "1.0.0",
+  "description": "prueba tecnica",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "runHeadless": "./node_modules/.bin/cypress run --headless --browser chrome"
+  },
+  "keywords": [
+    "QA"
+  ],
+  "author": "Daniel Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
+}

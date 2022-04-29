@@ -1,0 +1,15 @@
+{
+  "data":{
+  "url": "https://www.saucedemo.com/",
+  "usuario": "standard_user",
+  "contraseña": "secret_sauce",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+  },
+  "selectores":{
+    "username" : "[data-test='username']",
+    "pass" : "[data-test='password']",
+    "login_button": "[data-test='login-button']"
+
+  }
+}
